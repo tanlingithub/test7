@@ -1,0 +1,16 @@
+{
+	"name": "dm-console",
+	"version": "1.0.0",
+	"title": "DM 管理后台",
+	"description": "",
+	"type": "template",
+	"platform": [
+		"PC"
+	],
+	"homePage": "/materials/24/distcac0c2f3d8ca98792da13f17debb02ca/index.html",
+	"category": "管理后台",
+	"screenshot": "/screenshots/cac0c2f3d8ca98792da13f17debb02ca.png",
+	"path": "templates/DmConsole",
+	"origin": "http://gitlab.deepexi.top/deepexi/deepexi-serverless/serverless-material.git",
+	"hash": "cde045f4bf3787794e05cf7ff57faf1b"
+}

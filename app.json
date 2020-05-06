@@ -1,0 +1,19 @@
+{
+  "appKey": "LOte3ff4RfhtHpxCM7nJIYkHvgKMQ8Wn",
+  "appSecret": "jnOLZ59yOKbWLd6aUw719DELYqLiGczW",
+  "projectId": "df2de34fc546668a898a9b268f9a0878",
+  "id": 472,
+  "name": "test-dm",
+  "framework": "vue",
+  "platform": "pc",
+  "description": "测试dm控制台",
+  "git": {
+    "url": "https://github.com/tanlingithub/test7.git",
+    "isPrivate": 0,
+    "username": "3082902468@qq.com",
+    "password": "BsWgBGCj8RakvSn00CwQxLhUc5k7U9r7Lu7lGUCKdq4XM+l0Ab5aT7CJ80LWUW5BJKtB0EmPl0VtjlUY1ZuQkA=="
+  },
+  "alias": {},
+  "pages": [],
+  "dependencies": []
+}

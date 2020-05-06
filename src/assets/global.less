@@ -1,0 +1,63 @@
+@mainColor: #1890ff;
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue For Number", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: @mainColor;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #40a9ff;
+  }
+}
+
+.tooltip-label .el-tooltip {
+  float: right;
+  transform: translateY(10px);
+}
+
+.data-table-footer {
+  // data-table 底部复用样式
+  margin-top: 24px;
+  text-align: right;
+}
+
+// 全局修改主题
+#__nuxt {
+  .el-dialog {
+    border-radius: 8px;
+    .el-dialog__body {
+      padding: 15px 20px;
+    }
+  }
+
+  .el-data-table {
+    .el-table__body td:last-child {
+      .el-button {
+        color: #2460c1 !important;
+        border: 0;
+        background: 0 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    .el-table__header-wrapper {
+      background: #e8e8e8;
+    }
+  }
+}
