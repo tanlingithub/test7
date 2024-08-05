@@ -46,7 +46,7 @@
     "js-cookie": "^2.2.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
-    "nuxt": "2.9.2",
+    "nuxt": "3.12.4",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "v-charts": "^1.19.0",
